@@ -1,0 +1,31 @@
+﻿Build started 6/1/2016 10:39:28 AM.
+     1>Project "Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Surface-GLFW\Bezier_Surface-GLFW\Bezier_Surface-GLFW\Bezier_Surface-GLFW.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CameraManager.cpp Init_Shader.cpp InputManager.cpp InteractiveShape.cpp main.cpp Patch.cpp RenderManager.cpp RenderShape.cpp
+         RenderShape.cpp
+         RenderManager.cpp
+         Patch.cpp
+         main.cpp
+     1>z:\igmprofile\documents\tutorials\graphics\bezier_surface-glfw\bezier_surface-glfw\bezier_surface-glfw\main.cpp(225): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         InteractiveShape.cpp
+     1>z:\igmprofile\documents\tutorials\graphics\bezier_surface-glfw\bezier_surface-glfw\bezier_surface-glfw\interactiveshape.cpp(63): warning C4172: returning address of local variable or temporary
+         InputManager.cpp
+         Init_Shader.cpp
+         CameraManager.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Surface-GLFW\Bezier_Surface-GLFW\Debug\Bezier_Surface-GLFW.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Surface-GLFW\Bezier_Surface-GLFW\Debug\Bezier_Surface-GLFW.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Surface-GLFW\Bezier_Surface-GLFW\Debug\Bezier_Surface-GLFW.lib" /MACHINE:X86 Debug\CameraManager.obj
+         Debug\Init_Shader.obj
+         Debug\InputManager.obj
+         Debug\InteractiveShape.obj
+         Debug\main.obj
+         Debug\Patch.obj
+         Debug\RenderManager.obj
+         Debug\RenderShape.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Bezier_Surface-GLFW.vcxproj -> Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Surface-GLFW\Bezier_Surface-GLFW\Debug\Bezier_Surface-GLFW.exe
+     1>Done Building Project "Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Surface-GLFW\Bezier_Surface-GLFW\Bezier_Surface-GLFW\Bezier_Surface-GLFW.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.65
