@@ -1,0 +1,18 @@
+title: Bezier Surface GLFW
+author:
+  name: Benjamin Robbins
+  email:
+  github:
+description: An expansion of the Bezier curve example, this example deals with a Bezier surface, now with 16 control points.
+language: C++
+image:
+  icon: https://cloud.githubusercontent.com/assets/10502938/13506660/28be0300-e14d-11e5-90e3-b194f14e52bd.PNG
+  banner: https://cloud.githubusercontent.com/assets/10502938/13506660/28be0300-e14d-11e5-90e3-b194f14e52bd.PNG
+tags:
+  - C++
+  - Graphics
+  - GLFW
+  - NURBS
+extra_resources:
+connections:
+  - "https://github.com/IGME-RIT/graphics-glfw-bezierCurve-tutorial"
